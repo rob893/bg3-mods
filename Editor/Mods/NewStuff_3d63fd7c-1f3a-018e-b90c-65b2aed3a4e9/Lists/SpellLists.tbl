@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24597a9c-f86d-400c-86de-c5605f1dcc7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB Paladin SLevel1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_RHERB_LunarSmite_1" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="c6288ac5-c68b-40ed-bbdd-2ff388575831" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

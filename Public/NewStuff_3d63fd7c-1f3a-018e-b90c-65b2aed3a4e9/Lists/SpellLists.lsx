@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
+                    <attribute id="Name" type="FixedString" value="RHERB Paladin SLevel1"/>
+                    <attribute id="Spells" type="LSString" value="Target_RHERB_LunarSmite_1"/>
+                    <attribute id="UUID" type="guid" value="24597a9c-f86d-400c-86de-c5605f1dcc7b"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

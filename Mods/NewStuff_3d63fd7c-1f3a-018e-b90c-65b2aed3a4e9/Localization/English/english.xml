@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="hba42f990g83degee87g143dg94e987df34d2" version="1">FUN Backpack</content>
+  <content contentuid="h28f77553gd7cfgd619gf122g61d0858dd77e" version="1">It has lots of cool stuff FUCK</content>
+  <content contentuid="hf403e656g7f54g716fg93ebg93869abf57b0" version="2">Crusader's Greatsword</content>
+  <content contentuid="h821acc38ga6d7gef7cg3d45g4fa2275e560c" version="2">Strong castle-forged steel surmounts a grip of sturdy leather - this immense sword is gleaming with radiant light. </content>
+  <content contentuid="h03a3369dgcd8cg6a23g8cd5g81851c0eb631" version="1">Burning Blade</content>
+  <content contentuid="h9eb64233g6254ge06bg9359gdd506f1b8e4d" version="1">Possibly inflict &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; when hitting a creature with this weapon.</content>
+  <content contentuid="h4be4626eg7329gb705g0fc3g626aa498579f" version="1">Burning Radiance</content>
+  <content contentuid="h0de811b8gb6d0g4c16g9a6cg499d645291c8" version="4">Possibly inflict &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Fire&lt;/LSTag&gt; when dealing radiant damage with melee attacks.</content>
+  <content contentuid="h464b4344ged85g2df2gba63g81cb828e3439" version="1">Holy Burns</content>
+  <content contentuid="hc3fda14fgdf11geac9g5beeg581bb1b1f5d6" version="5">While your target is burning with &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Fire&lt;/LSTag&gt;, this weapon deals an additional [1].</content>
+  <content contentuid="he3c30543g8c18g3b71g5749g521893583b47" version="1">Blessed Hands</content>
+  <content contentuid="h354b43c8g9fc0gbaf5g51d9g93ab5f0ff920" version="1">When you use your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; spells, you gain &lt;LSTag Type="Status" Tooltip="BLESS"&gt;Bless&lt;/LSTag&gt;.</content>
+  <content contentuid="h33e71a1bg8708g64f3gb876g594b517ffda4" version="1">Crusader's Gloves</content>
+  <content contentuid="h4b8ed1b9gb753g2ae5g61b9g5607a1e47365" version="1">Suede covers the palms of these gloves - ensuring a soft, comforting touch for anyone in need of help.</content>
+  <content contentuid="h64e9c05cg23c4gab51g40f7gd9315067e9f0" version="1">Crusader's Armour</content>
+  <content contentuid="h3f905f40gd5d7g3c8ega18bg4b5242cb5623" version="1">The soft hum of a fervent prayer reverberates throughout the armoured plates.</content>
+  <content contentuid="h55dd7424gfa30g450fg7ce0gae956a61ad52" version="1">Crusader's Helm</content>
+  <content contentuid="he5123dc1g16b5gb6d8gd29fgad5a3e3b929b" version="1">A set of runes has been expertly worked into the helmet's filigree. Almost imperceptible - but powerful nonetheless.</content>
+  <content contentuid="h3d5f5e53g04d2g8c8ag5921gd9c094e2b7b9" version="1">Crusader's Boots</content>
+  <content contentuid="h3a437069gc531gfa15gc3aeg85673a8bb008" version="2">Crusader's Armour</content>
+  <content contentuid="h14d6364dga926gef7bgbec1g7182ae71552f" version="2">The soft hum of a fervent prayer reverberates throughout the armoured plates.</content>
+  <content contentuid="hb6a4ad2fgdcdfgb44eg09d3g9b468fa05d07" version="2">Crusader's Armour</content>
+  <content contentuid="hf03ed08egc6ccg566bg7d01gbdc1a647ecc1" version="2">Nightsong's armour is evocative of her personality - prickly, hardy, and about as agreeable as a clenched fist. </content>
+  <content contentuid="hdcc80e4eg95b4g8abfg9605g4f98d09029f2" version="2">Crusader's Armour</content>
+  <content contentuid="hc801f3f5gdf37gae01gee22gb88a83e5552d" version="2">To break one's oath is a dangerous game - it marks you as a faithless cur, an exile without a cause. This armour is tempered by an age of rocks, blades, and persecution turned against it - and is buffed by the immutable, unbindable will of its wearer. </content>
+  <content contentuid="h1717c12cg846eg2aa4gf383gb9444c8b76d3" version="2">Crusader's Helm</content>
+  <content contentuid="h0c4c38cagbe80gc35dg5890g939c8e971ef8" version="2">Worn by a scoundrel of the lowest morals and the highest cunning.</content>
+  <content contentuid="hf7ebbd79gd323g0625gbc66g6f9605bc7fd0" version="1">Crusader's Helm</content>
+  <content contentuid="h67b1f32fg30adg07d1gc87egc71e550c6797" version="1">'When I found Carixim, he turned to me, all those poor people's souls crammed into him like too many bees in a rotten hive, and he... He grinned at me. And he said: I been expecting you, boy.' - Overheard from the smith Dammon </content>
+  <content contentuid="h85418124g6f61g4135ge9f4g8c7ebf31159f" version="1">Crusader's Gauntlets</content>
+  <content contentuid="h53e78bfag2a3cg2145g0650g1ad0b1280972" version="1">'Beneath those horrible sounds of... well, let's call it what it was: torment, Beneath the tormented screams I heard this moaning sound like many people in pain, and I heard the ringing of a great hammer. Carixim's forge was close.' - Overheard from the smith Dammon </content>
+  <content contentuid="h075b82bdg95cdg19ecge9aagedd0ce37ee42" version="1">Crusader's Greaves</content>
+  <content contentuid="h55091936g4021g9e19gf0beg71a20215d23e" version="1">Clad on the desiccated feet of a death knight, these boots have walked a long and terrible path. They strode through the tattered remains of their owner's oath. With every heavy footstep, they have sounded pure fear into the hearts of men.</content>
+  <content contentuid="h9eec8a75g043cg28f4gc9d4g6a7462631e59" version="2">Divine Angelic Armour</content>
+  <content contentuid="h24b00a0ag68f0gdaa5g887aga160deb0d433" version="2">Nightsong's armour is evocative of her personality - prickly, hardy, and about as agreeable as a clenched fist. </content>
+  <content contentuid="hd4a8a583gcb19gcdcbg112bg67329454228b" version="3">Divine Angelic Greatsword</content>
+  <content contentuid="hba26261ege7a0gbc39g6039g9012f0547201" version="3">This longsword never dulls, although an observer may notice it quietly drinks the blood of slain enemies.</content>
+  <content contentuid="h8926f6c8g85e5gaad6g8a1fgb6c40ba30694" version="3">Divine Angelic Boots</content>
+  <content contentuid="hc42c05e5gf572gd34cg864cgf000889e1e6a" version="3">Divine Angelic Gloves</content>
+  <content contentuid="h87a364f4g1837g1ca7g4bb5gee56a4700ea4" version="3">Divine Angelic Helmet</content>
+  <content contentuid="h3fcf7b8cg5973gd94eg3b27g836115ac0af8" version="3">The Dame's resentment and anger toward Ketheric cannot be overstated. Still, her dreams rove sweeter corners, beyond the cruel hardwood floors of vengeance, the rooms of pain and discipline. Hers is a complex house, a house of the heart.</content>
+  <content contentuid="h6a444776g351egfc90gd49agd43185ab30b6" version="1">Angelic Armour</content>
+  <content contentuid="h47ff1e2bgdba5gb5fcg6dc2gf1260c45ee17" version="1">Nightsong's armour is evocative of her personality - prickly, hardy, and about as agreeable as a clenched fist. </content>
+  <content contentuid="he8d1a2cfg2ce5g245ag8fe9g19bc7e262a1c" version="1">Silvered Angelic Armour</content>
+  <content contentuid="h222d5169gffecg4400g177agb8abdd1f54ac" version="1">Nightsong's armour is evocative of her personality - prickly, hardy, and about as agreeable as a clenched fist. </content>
+  <content contentuid="h2a416e39g0d67g3e20g7b4cg57c40b9f90b4" version="1">Gilded Angelic Armour</content>
+  <content contentuid="h6d016343g0202g826dgf191gc106bd8e0014" version="1">Nightsong's armour is evocative of her personality - prickly, hardy, and about as agreeable as a clenched fist. </content>
+  <content contentuid="hab71382cg47ffgeb4cgd40fgc118a3991310" version="1">Angelic Boots</content>
+  <content contentuid="hc12770d4g7bf4gdca2g7c75g6b513278cad2" version="1">Silvered Angelic Boots</content>
+  <content contentuid="he81346f4gfc6dgeb1dg8fdag3d795d884985" version="1">Gilded Angelic Boots</content>
+  <content contentuid="ha05620bege5eagb9f8gb80fgc51c99c0bef8" version="1">Angelic Gloves</content>
+  <content contentuid="h757fcf94gde18g57d7g58fegdbe7469b5f9e" version="1">Silvered Angelic Gloves</content>
+  <content contentuid="h55dd9a97gae6fgaa6bgf21eg342c93d6103f" version="1">Gilded Angelic Gloves</content>
+  <content contentuid="h97d7ace4g5a2bgc609g551dg4721be617376" version="1">Silvered Angelic Greatsword</content>
+  <content contentuid="h8939c4b9gbafbg1e32g7bb3gfeaa0b88a069" version="1">This longsword never dulls, although an observer may notice it quietly drinks the blood of slain enemies.</content>
+  <content contentuid="h047fb477gf17dg6fa2g9ef8g5a8f48221834" version="1">Gilded Angelic Greatsword</content>
+  <content contentuid="h617cb687g2f75g67f9ge6dbge6ce97159dcd" version="1">This longsword never dulls, although an observer may notice it quietly drinks the blood of slain enemies.</content>
+  <content contentuid="hcc37b13eg38beg2921g89cdgb959f9cc9808" version="1">Angelic Helmet</content>
+  <content contentuid="hf60f2808g1435g550fg02f6g0930a153afff" version="1">The Dame's resentment and anger toward Ketheric cannot be overstated. Still, her dreams rove sweeter corners, beyond the cruel hardwood floors of vengeance, the rooms of pain and discipline. Hers is a complex house, a house of the heart.</content>
+  <content contentuid="hbd77a989g4bddgf3b6g743eg431a520f7579" version="1">Silvered Angelic Helmet</content>
+  <content contentuid="ha8bd802bg46a8g14eag3b41gc39075f95c9e" version="1">The Dame's resentment and anger toward Ketheric cannot be overstated. Still, her dreams rove sweeter corners, beyond the cruel hardwood floors of vengeance, the rooms of pain and discipline. Hers is a complex house, a house of the heart.</content>
+  <content contentuid="hf8b2b13bg3f50gac92gfefdgdb52a54c63cd" version="1">Gilded Angelic Helmet</content>
+  <content contentuid="h0b1060e6g67c3gf2a3g27bdg3f5df129357f" version="1">The Dame's resentment and anger toward Ketheric cannot be overstated. Still, her dreams rove sweeter corners, beyond the cruel hardwood floors of vengeance, the rooms of pain and discipline. Hers is a complex house, a house of the heart.</content>
+  <content contentuid="h71cdb7feg9b1fg1bcbg42fcg7297a21d971a" version="2">When you kill a creature with one of your Smite spells, you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; plus your paladin level.</content>
+  <content contentuid="hc4df04e5g1742gfef4g9c65gd045061284b1" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Passive" Tooltip="RHERB_SmiteKill_TempHP_Passive"&gt;Bolstering Smite&lt;/LSTag&gt;.</content>
+  <content contentuid="hfcce45d5g7760g917agf2c8ga1da5fc47147" version="3">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, when you kill a creature with one of your Smite spells, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; after [1] turns.</content>
+  <content contentuid="h6ca8b242g39b4gdcf6g0732g939cb3b81044" version="2">Bolstering Smites</content>
+  <content contentuid="h554eb149gaecfga55eg033cgd1d5247853d1" version="2">Zealot's Fervor</content>
+  <content contentuid="h257cccf3g5685ga49dg9bddg5ce220f4e1c0" version="3">On a hit, light erupts around you in a [1] area. Enemies in the light take Radiant damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and must succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="hc51a09fag13c0gf484gbb85g29e7cce72f1f" version="2">Avenging Wrath</content>
+  <content contentuid="hae69035ag4fdcgf59cg05d1g9ef9cf40122b" version="3">Once per combat, when you use &lt;LSTag Type="Spell" Tooltip="Target_Smite_Divine"&gt;Divine Smite&lt;/LSTag&gt; on a target burning with &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Fire&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="MAG_VIOLENCE"&gt;Wrath&lt;/LSTag&gt; for [1] turns.</content>
+  <content contentuid="hbd295ae1gd2f7g9419gc122ga02c2eccd3a3" version="2">Final Reckoning</content>
+  <content contentuid="h3bf5ef18g22dcg0e7bgb540g0c8c3d019e0d" version="3">While you have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, enemies who damage you with melee attacks must make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or take [1].</content>
+  <content contentuid="ha4e26102gf8a3g79abgcc1fg32fe19f08efe" version="1">Shield of Vengeance</content>
+  <content contentuid="he7c758e8g89d8gb7cagc96egc2a3bb6280d3" version="2">Executioner's Will</content>
+  <content contentuid="h763d2eeaga14agd01dg31b0g1b5f86488a4d" version="2">When you use &lt;LSTag Type="Spell" Tooltip="Target_LayOnHands"&gt;Lay on Hands&lt;/LSTag&gt; to heal an ally, the recipient gains &lt;LSTag Type="Status" Tooltip="RHERB_BLESSING_OF_RETRIBUTION"&gt;Blessing of Retribution&lt;/LSTag&gt; for [1] turns.</content>
+  <content contentuid="ha9649e40g76a0g6f2ag510eg65b058010a9a" version="1">Blessing of Retribution</content>
+  <content contentuid="h134c7b7egc64dg80c4g6658g15ea7fa9f90e" version="1">Blessed with holy fervor. Weapon attacks deal an additional [1].</content>
+  <content contentuid="hd6f7f0f9gd1feg086aged59gff4ff04f6e7b" version="1">Shield of Vengeance</content>
+  <content contentuid="h775cbfc0gf467g6f8bg75a6gdf6dc161f872" version="4">Gained a shield of [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt;. Upon expiration, the shield explodes, dealing [2] and [3] to all enemies in [4]. Deals half damage on a successful saving throw.</content>
+  <content contentuid="heae2b27cga3c9g2e54g7870gb7fa7201f788" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, when the wearer is brought below 50% &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, they gain &lt;LSTag Type="Status" Tooltip="RHERB_MAG_ShieldOfVengeance"&gt;Shield of Vengeance&lt;/LSTag&gt;.</content>
+  <content contentuid="h59d1a433g8249g4f21g9326g5f6c2f92114c" version="1">Shield Of Vengeance Explosion</content>
+  <content contentuid="h652c30dcgc634g0444ge7d3ga2cff994820b" version="1">The shield explodes in holy fire, damaging nearby enemies.</content>
+  <content contentuid="h89749d3agbfb2g0bb3g32b6ge06d672c991c" version="1">Foo</content>
+  <content contentuid="hd4aef41bg51d0g8cf4gf25bgcbe6ec6b03d1" version="3">Zealot's Fervor</content>
+  <content contentuid="h700b2ed0g552egceb3ge6b8g423ed711c3b7" version="3">After this status expires, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+</contentList>

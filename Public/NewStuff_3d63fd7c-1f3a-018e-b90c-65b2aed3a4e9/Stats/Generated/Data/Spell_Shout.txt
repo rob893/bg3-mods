@@ -1,0 +1,7 @@
+new entry "Shout_RHERB_RadianceOfTheDawn_RestCD"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_RadianceOfTheDawn"
+data "Cooldown" "OncePerRest"
+data "UseCosts" "ActionPoint:1"
+

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24837453-d164-4536-812f-a0aa04e2a0cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Crusaders_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="99d3e47a-e89e-4d72-8877-f20eec7de2ce" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="50b0f300-81f2-4c3c-8b26-6d39af29074c" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength);Ability(Strength, 2)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Blessed_Hands_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c29c336-9acc-47b0-940d-5e52f6d80b63" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Crusaders_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71d01550-97e1-421f-8c7f-921f01240ec9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c838a5e1-ec08-48c7-b746-bf908ad8ee4e" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="20" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a57433fc-8be8-4efb-ac6b-a625b3bdcd18" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth);UnlockSpell(Shout_MAG_Restore_ChannelDivinity);Ability(Constitution, 2)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49c9d98d-5323-43a6-a50e-abd01d32b35b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Crusaders_Helmet" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26d04e16-15ba-4f42-8cbb-aa520ef1b379" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ef99d43d-bbbf-492a-9d94-aefbb01778de" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution);Ability(Charisma, 2)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7d2c668-8818-4832-bbd2-a7e239a9922a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Crusaders_Boots" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="542d722c-fbc9-4fc3-942a-a21a67f68663" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a4825f63-ae13-4395-aaba-11caa4508723" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Athletics,1);Ability(Dexterity, 2);AC(1)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6010fd33-b995-49af-9ddd-d6e569da9a43" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Gloves_R0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9595f6a0-f229-4869-ad3c-1ec7763733da" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="430f0794-ee9b-469a-92d9-aff6c7c4c9ad" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9495e96a-7e7c-4e3a-8d81-51611908908c" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e7e77d5-52ae-4328-90ee-290323e40692" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Gloves_R1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="99d3e47a-e89e-4d72-8877-f20eec7de2ce" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="29ec26fe-39cb-4f3f-b3f3-5f57c54bd3eb" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Divine_Wrath_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="476313a8-59fe-444e-8f9f-827656db3670" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Gloves_R2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e7e77d5-52ae-4328-90ee-290323e40692" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="51949a37-d8a3-4442-8e6a-2862ab8d35bc" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength);RollBonus(Attack, 1)" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Divine_Wrath_Passive;RHERB_Blessed_Hands_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdf395f3-e464-43b1-a7ef-321fd6873832" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24837453-d164-4536-812f-a0aa04e2a0cd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be7b2034-b029-4ab5-9f69-222a540f48fa" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength);RollBonus(Attack, 1);Ability(Strength, 2)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Divine_Wrath_Passive;RHERB_Blessed_Hands_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03ddbe54-ff9b-4ad2-b486-c576dcb77ed6" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Armour_R0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86f78c4a-2a29-42ce-8ba6-43eb5599fd6e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4e0996c2-dd88-49be-a6d4-81f4ed1ff6cb" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6597e14-a9f1-415b-9e3b-d3d8d5331a9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Armour_R1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d41d2b7-0cff-4af9-a093-3270ce65e566" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1b0b2abc-f7cc-4842-8562-2eb36bfda11c" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="18" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4024ce6c-f02d-4d7c-8033-869ada06ef82" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth);UnlockSpell(Target_PLA_ShieldOfFaith_SwordOfJustice)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ARM_SuperiorPlate_1_Passive;RHERB_SmiteKill_SS1_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a4d542f-0e19-4677-9427-daae6a1cef34" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Armour_R2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6597e14-a9f1-415b-9e3b-d3d8d5331a9a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e0b26d75-9574-4ca4-bc7d-709bb6b03faa" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="19" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="adfdafe5-f4da-4c64-a1e6-a33d626437d2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CriticalHit(AttackTarget,Success,Never);Disadvantage(Skill,Stealth);UnlockSpell(Target_PLA_ShieldOfFaith_SwordOfJustice)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ARM_MagicalPlate_2_Passive;RHERB_SmiteKill_SS1_Passive" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce9bcc1c-7e8f-45b5-91bf-ef34da7e0267" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Armour" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0b3d63e9-ad32-4c89-b79c-0557551cf5f9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="34579a28-b10f-4b26-9263-c74f23e2227e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a57433fc-8be8-4efb-ac6b-a625b3bdcd18" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Constitution, 2);CriticalHit(AttackTarget,Success,Never);Disadvantage(Skill,Stealth);UnlockSpell(Target_PLA_ShieldOfFaith_SwordOfJustice)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ARM_MagicalPlate_2_Passive;RHERB_SmiteKill_SS1_Passive;MAG_MAG_EndGame_Plate_Armor_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6de56935-7586-48d2-b2de-dcd5d335ed83" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Helmet_R0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9537167-87b5-44df-8c0b-22f82d8f2040" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0da4c5f5-cae0-4bd7-a361-5ae8a2c9b956" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9495e96a-7e7c-4e3a-8d81-51611908908c" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d91c461-1c47-4931-b6aa-0e9cd7f96603" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Helmet_R1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26d04e16-15ba-4f42-8cbb-aa520ef1b379" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8e1ef332-b062-444c-8209-6d0bf215ea5c" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_ShieldOfVengeance_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04a11dd3-d3e6-46c1-abe5-188a95f85fd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Helmet_R2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d91c461-1c47-4931-b6aa-0e9cd7f96603" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0ce1f2d1-ef1f-4441-91ad-66ed5fe51789" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_ShieldOfVengeance_Passive" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution);AC(1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04bc31d8-109c-4186-ab86-8e211b44a1ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Helmet" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04a11dd3-d3e6-46c1-abe5-188a95f85fd0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="12c7a4bd-e1dd-4dae-b8ea-e9c217d11199" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_ShieldOfVengeance_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution);AC(1);Ability(Charisma, 2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="789f14e5-da9f-44e2-bcb3-08d78f9eb133" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Boots_R0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f7bcb8a-b652-46da-ab4c-6cda2bb2a637" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a4203b80-2cd4-4ece-a40b-97e0d92cef23" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9495e96a-7e7c-4e3a-8d81-51611908908c" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c0d9881-0f08-433a-8317-63352d611592" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Boots_R1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="542d722c-fbc9-4fc3-942a-a21a67f68663" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a5a4c14c-1807-4739-be76-e49e3be975ad" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_BlessingOfRetribution_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a272026-01cc-40ba-b830-906763e8ed83" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Boots_R2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c0d9881-0f08-433a-8317-63352d611592" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3fa8c7f9-f6af-4c5e-b77c-738393833fd1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Athletics,1)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_BlessingOfRetribution_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Technical_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ef1d2ee-c628-4225-97b2-4f3ad1d9decc" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Boots" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4a272026-01cc-40ba-b830-906763e8ed83" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="206d6002-5f25-4ac4-8b8f-9ed3f573d3dc" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Athletics,1);Ability(Dexterity, 2)" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_BlessingOfRetribution_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Technical_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f55b8de5-37bf-4179-a4d1-ccce72db0bf9" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Ring_Of_Summoning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4aecbe71-737c-4f9a-a43a-817960101f1c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RHERB_Summon_Pissed_Thing);UnlockSpell(Target_RHERB_Summon_Bear)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec6414dc-cd62-4e73-b98a-59c1a7085599" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_PAL_CHA_TEMP_HP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cde3ec7a-8057-4213-b996-294cf8ae37cf" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc4df04e5g1742gfef4g9c65gd045061284b1" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="CharismaModifier + ClassLevel(Paladin)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(CharismaGreaterThan(9,context.Source)):TemporaryHP(CharismaModifier+ClassLevel(Paladin));IF(not CharismaGreaterThan(9,context.Source)):TemporaryHP(ClassLevel(Paladin))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ca686e4-f19d-406b-ae0b-417c5baf93b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_BLESSING_OF_RETRIBUTION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="be521c42-11c8-4e5c-a83b-ab3940c64371" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9649e40g76a0g6f2ag510eg65b058010a9a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h134c7b7egc64dg80c4g6658g15ea7fa9f90e" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RHERB_BLESSING_OF_RETRIBUTION" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a49cc8e-211e-4e37-a3aa-2b8edeb56dc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_ShieldOfVengeance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6f7f0f9gd1feg086aged59gff4ff04f6e7b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h775cbfc0gf467g6f8bg75a6gdf6dc161f872" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="CharismaModifier + ClassLevel(Paladin);DealDamage(1d6,Radiant);DealDamage(1d6,Fire);Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEnergy" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Buff_MO" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TEMPORARY_HP" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(CharismaGreaterThan(9,context.Source)):TemporaryHP(CharismaModifier+ClassLevel(Paladin));IF(not CharismaGreaterThan(9,context.Source)):TemporaryHP(ClassLevel(Paladin))" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(Combat()):CreateExplosion(SWAP,Projectile_RHERB_MAG_ShieldOfVengeance_Explosion)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e12b7e0e-709b-4782-b903-49269073be2b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c95c240a-107e-4a63-a5b6-f80edab64e3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_SMITE_RESTORE_SS_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd4aef41bg51d0g8cf4gf25bgcbe6ec6b03d1" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h700b2ed0g552egceb3ge6b8g423ed711c3b7" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PotentSpellcasting" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RHERB_SMITE_RESTORE_SS_1" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,SpellSlot,1,1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

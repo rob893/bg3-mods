@@ -1,0 +1,8 @@
+new entry "RHERB_Backpack_1"
+type "Object"
+using "_Container"
+data "RootTemplate" "fedf792d-4878-4d62-80da-a33ce8f9fc7e"
+data "ValueOverride" "7"
+data "Unique" "0"
+data "MinLevel" "1"
+

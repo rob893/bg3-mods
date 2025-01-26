@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d15d361d-db30-44c1-9215-34fbcac93526" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Colossal_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5eda8a8d-0dc5-43fe-8a7a-4e7a561d082c" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="392a4338-683e-4d34-a236-f99677cdeb43" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="2d6" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Burning_Radiance_Passive;RHERB_Holy_Burns_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RHERB_FlameStrike_RestCD);UnlockSpell(Shout_RHERB_RadianceOfTheDawn_RestCD)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b4fa274-dde6-4dab-aec8-8bf3592a2a0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d15d361d-db30-44c1-9215-34fbcac93526" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="612999fd-0631-471a-99c7-cdcb4cfd9759" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="UnlockSpell(Target_RHERB_FlameStrike_RestCD)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Zone_Cleave);UnlockSpell(Target_RHERB_WeaponAction_DawnStrike)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Burning_Radiance_Passive;RHERB_Holy_Burns_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de75fa9f-2deb-4dd0-a9ef-16c60bd69e44" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Greatsword_R1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1b4fa274-dde6-4dab-aec8-8bf3592a2a0f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f4ebe3e5-f16e-4a5e-ade2-77f0cd36dfda" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05d0fe46-ac06-4e98-92b3-dd30234a488e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Greatsword_R2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de75fa9f-2deb-4dd0-a9ef-16c60bd69e44" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8a254d38-f5c1-4496-8405-bccb4d7d5c66" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

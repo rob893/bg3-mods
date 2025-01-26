@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8dc1a967-7946-4433-b071-0dcddf3e59be" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_RadianceOfTheDawn_RestCD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6412ed8c-e460-4723-854a-b560141f837a" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

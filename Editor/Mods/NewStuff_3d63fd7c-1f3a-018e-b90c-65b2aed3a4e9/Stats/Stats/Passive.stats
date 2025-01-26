@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3b43dfb-99cd-4343-8507-7d808a16c68b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Burning_Radiance_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4be4626eg7329gb705g0fc3g626aa498579f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0de811b8gb6d0g4c16g9a6cg499d645291c8" version="4" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageDoneForType(DamageType.Radiant) and not Item() and IsMeleeAttack()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('BURNING_HOLY', context.Target)):ApplyStatus(BURNING_HOLY, 100, 2,,,,not SavingThrow(Ability.Constitution,17))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aebf1743-4dc5-4b73-8da4-472f2880d5da" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Holy_Burns_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h464b4344ged85g2df2gba63g81cb828e3439" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3fda14fgdf11geac9g5beeg581bb1b1f5d6" version="5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire)" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('BURNING_HOLY', context.Target)):CharacterWeaponDamage(1d6,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d38ea2e-d9b3-4ae2-95e2-e3c0582a0822" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Blessed_Hands_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3c30543g8c18g3b71g5749g521893583b47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h354b43c8g9fc0gbaf5g51d9g93ab5f0ff920" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('ChannelOath')" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BLESS, 100, 10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f625cd48-08b0-45f1-95dc-780bf9f63459" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_SmiteKill_TempHP_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52ce025d-29e7-4d11-96ad-b142de15765b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71cdb7feg9b1fg1bcbg42fcg7297a21d971a" version="2" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage;OnStatusApply" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHPLessThan(1) and Enemy() and Character() and (context.HasContextFlag(StatsFunctorContext.OnDamage) and (IsSmiteSpells() or SpellId('Target_RHERB_LunarSmite_RestCD_1') or SpellId('Target_RHERB_LunarSmite_RestCD_2') or SpellId('Target_RHERB_LunarSmite_RestCD_3') or SpellId('Target_RHERB_LunarSmite_1') or SpellId('Target_RHERB_LunarSmite_2') or SpellId('Target_RHERB_LunarSmite_3')) or (context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('INTERRUPT_SMITE_DIVINE_VFX')))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnDamage) and (IsSmiteSpells() or SpellId('Target_RHERB_LunarSmite_RestCD_1') or SpellId('Target_RHERB_LunarSmite_RestCD_2') or SpellId('Target_RHERB_LunarSmite_RestCD_3') or SpellId('Target_RHERB_LunarSmite_1') or SpellId('Target_RHERB_LunarSmite_2') or SpellId('Target_RHERB_LunarSmite_3'))):ApplyStatus(SELF, RHERB_PAL_CHA_TEMP_HP, 100, -1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('INTERRUPT_SMITE_DIVINE_VFX')):ApplyStatus(SELF, RHERB_PAL_CHA_TEMP_HP, 100, -1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ca8b242g39b4gdcf6g0732g939cb3b81044" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed763725-798c-496b-bde5-8d27fc049c92" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_SmiteKill_SS1_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h554eb149gaecfga55eg033cgd1d5247853d1" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfcce45d5g7760g917agf2c8ga1da5fc47147" version="3" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerCombat" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage;OnStatusApply" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHPLessThan(1) and Enemy() and Character() and (context.HasContextFlag(StatsFunctorContext.OnDamage) and (IsSmiteSpells() or SpellId('Target_RHERB_LunarSmite_RestCD_1') or SpellId('Target_RHERB_LunarSmite_RestCD_2') or SpellId('Target_RHERB_LunarSmite_RestCD_3') or SpellId('Target_RHERB_LunarSmite_1') or SpellId('Target_RHERB_LunarSmite_2') or SpellId('Target_RHERB_LunarSmite_3')) or (context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('INTERRUPT_SMITE_DIVINE_VFX')))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, RHERB_SMITE_RESTORE_SS_1,100, 2)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2e94bb0-bf50-4610-90f6-12d23898f2b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Divine_Wrath_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc51a09fag13c0gf484gbb85g29e7cce72f1f" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae69035ag4fdcgf59cg05d1g9ef9cf40122b" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerCombat" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply;OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('BURNING_HOLY', context.Target) and (SpellId('Target_Smite_Divine') or SpellId('Target_Smite_Divine_2') or SpellId('Target_Smite_Divine_3') or SpellId('Target_Smite_Divine_4') or SpellId('Target_Smite_Divine_5') or SpellId('Target_Smite_Divine_6') or (context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('INTERRUPT_SMITE_DIVINE_VFX')))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, MAG_VIOLENCE,100, 4);ApplyStatus(SELF, MAG_VIOLENCE_DURATION_TECHNICAL, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b5cc014-564d-47d5-9a59-743f2b8baa5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_ShieldOfVengeance_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd295ae1gd2f7g9419gc122ga02c2eccd3a3" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heae2b27cga3c9g2e54g7870gb7fa7201f788" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(IsHit() or IsCritical()) and not IsMiss() and not IsCriticalMiss() and Enemy() and Combat() and not Dead() and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RHERB_MAG_ShieldOfVengeance, 100, 5)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab157012-6fa8-49ba-9ada-8e0e87cacf8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_BlessingOfRetribution_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7c758e8g89d8gb7cagc96egc2a3bb6280d3" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h763d2eeaga14agd01dg31b0g1b5f86488a4d" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and (SpellId('Target_LayOnHands_SmallHeal') or SpellId('Target_LayOnHands_BigHeal'))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RHERB_BLESSING_OF_RETRIBUTION,100,2)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

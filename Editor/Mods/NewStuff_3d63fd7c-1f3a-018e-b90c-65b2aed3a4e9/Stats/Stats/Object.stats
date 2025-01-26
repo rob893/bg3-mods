@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f90f25f-71f1-4ae6-b279-e4f3a3a88b46" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="18cec264-22ab-44d0-a46f-f36fe4fe9e3a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fedf792d-4878-4d62-80da-a33ce8f9fc7e" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

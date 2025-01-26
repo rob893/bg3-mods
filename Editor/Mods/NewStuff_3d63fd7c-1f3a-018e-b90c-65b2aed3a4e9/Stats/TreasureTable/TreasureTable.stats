@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e4012e18-6a6b-4f40-aefa-c83b078c136c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="TUT_Chest_Potions" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="630ae428-1500-4da2-a6e1-4214bf05fb0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="TUT_Chest_Potions_substat" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="faac5c97-7692-46f2-8f1b-431b0adc0a0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7_substat_0" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="68dedfc4-be51-49c5-b56e-96d3eaaed267" />
+        <field name="Name" type="NameTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7_substat_1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="15e21edb-21d1-4768-a496-8331ebc422b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="51cb1643-0583-4222-9934-e425550fe3e7_substat_2" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Greatsword_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Colossal_Greatsword" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dec4375e-c7c2-4f1a-bfce-a99e0251d1c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Crusaders_Gloves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8a586b9c-715a-4486-8e14-89ed7647f71b" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Crusaders_Armor" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0f673675-21b9-4f83-bb48-a1fb738eafd7" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Crusaders_Helmet" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1ebb3455-12d9-4a61-ad4f-d57fd9b7139c" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_2" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Crusaders_Boots" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8f30fab3-746b-43f7-9099-da9f364ec3c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_3" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Greatsword" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="76683843-53fc-428e-ae8f-3f826b30b12f" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_4" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b3e1e0ad-68de-44ba-a8d6-1bede58d90e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_5" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="51da4acb-1cd8-466a-9a9a-10bc6cda023b" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_6" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a65b4bb5-21a2-4b65-8451-8e4dcb34a125" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_7" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="96be30f4-ad39-4e34-b22f-49414ceefbf7" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_8" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2f97186e-53a0-44a9-bd33-4229a326764a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_0" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9b6d6de6-cf48-4c08-a7f3-25c2e5935e9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c1ca7524-86be-4e8f-a5c8-e3dedc07dd54" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_2" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2b29a77f-bb47-457b-b456-e3efdcb9c1fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_3" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2c3e1b53-0ee6-4ab1-b10d-1c7c0a64e2b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_4" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="09f900d7-27a1-4756-aa4a-498a1e7df5cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_5" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="919f845e-7e8d-4f4b-a651-34890eea709b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_6" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6a59d06a-e73a-4d13-bb6f-be39ed92fd73" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_7" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="50934376-8072-43a3-9e00-df7127287ab2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_8" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves_R0" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f062461c-15ed-4253-9bd5-33f5580dac2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_9" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f394072e-352b-4eca-9900-ba18f6be2128" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_10" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="46930c8b-d659-45f6-ab62-79d9e18f6535" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_11" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Greatsword_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8b57f856-3d59-4ecf-b87a-513df1db641d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_Backpack_1_TT_substat_12" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Greatsword_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f76efa32-08ac-40f0-a74d-0fa0bd98d24c" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_9" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Ring_Of_Summoning" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="baa415d7-4e9c-447a-b573-e38952df5451" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="baa415d7-4e9c-447a-b573-e38952df5451" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c4e062ae-b97a-4e46-9ef1-79a607b774c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade_substat_3" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Greatsword_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="baa415d7-4e9c-447a-b573-e38952df5451" />
+        <field name="UUID" type="IdTableFieldDefinition" value="afded501-65ab-4578-9704-c1919eab6195" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade_substat_2" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="baa415d7-4e9c-447a-b573-e38952df5451" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0034c543-88e6-40ae-95ba-49ba8d1c9675" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade_substat_0" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="baa415d7-4e9c-447a-b573-e38952df5451" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a02a94ec-aada-4c18-814a-f724955d722e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade_substat_1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet_R1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ba7c167-0bb3-4990-b8e5-7cea34885eed" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_HarperQuarterMaster_Magic_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ba7c167-0bb3-4990-b8e5-7cea34885eed" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b558681c-26cd-4977-9ea0-f10f5331221d" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_HarperQuarterMaster_Magic_Trade_substat_3" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ba7c167-0bb3-4990-b8e5-7cea34885eed" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3d1fe40c-43b4-4303-8b35-2e92f77b6d53" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_HarperQuarterMaster_Magic_Trade_substat_2" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ba7c167-0bb3-4990-b8e5-7cea34885eed" />
+        <field name="UUID" type="IdTableFieldDefinition" value="728d017e-e620-4b85-b4e9-8173b48053f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_HarperQuarterMaster_Magic_Trade_substat_1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ba7c167-0bb3-4990-b8e5-7cea34885eed" />
+        <field name="UUID" type="IdTableFieldDefinition" value="efd01e5e-0586-4d6b-beb3-f98586d002ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_HarperQuarterMaster_Magic_Trade_substat_0" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Greatsword_R2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_OrinsImpersonation_Smith" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Armour" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6f261c84-2844-4d7c-aede-dd4722f436e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_OrinsImpersonation_Smith_substat" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Greatsword" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363" />
+        <field name="UUID" type="IdTableFieldDefinition" value="40bebe05-ee05-4418-8db3-5ac19560de43" />
+        <field name="Name" type="NameTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363_substat_0" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Boots" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363" />
+        <field name="UUID" type="IdTableFieldDefinition" value="32864488-66d0-44f6-8a97-12d26dffe763" />
+        <field name="Name" type="NameTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363_substat_1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Gloves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eb55665e-1900-4b5b-b017-26d1ee803088" />
+        <field name="Name" type="NameTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363_substat_2" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
