@@ -185,7 +185,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_ShieldOfVengeance_Passive" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution);AC(1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1);AC(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -198,7 +198,7 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_ShieldOfVengeance_Passive" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution);AC(1);Ability(Charisma, 2)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1);AC(1);Ability(Charisma, 2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

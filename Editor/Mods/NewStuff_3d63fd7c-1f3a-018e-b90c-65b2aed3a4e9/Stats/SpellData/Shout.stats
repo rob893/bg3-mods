@@ -10,5 +10,35 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ef876b9-796e-4dcf-939a-8ef677a6fb6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_DivineWeapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="46c95ab1-def6-46bc-851b-2c8cba412629" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(SELF,MainHand,RHERB_DIVINE_WEAPON,100,10)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="IsWeapon() or (Self() and HasWeaponInMainHand())" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha85aa0b6g6b42gf694ga8a0g88c6145875b7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h384c68f2gfdbdg467fgb82egcc03b00a1668" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="10;DealDamage(1d4,Fire);DealDamage(ProficiencyBonus,Radiant)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(SELF,MainHand,RHERB_DIVINE_WEAPON,100,10)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_ElementalWeaponFire_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Buff_ElementalWeaponFire_L1to3L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_ElementalWeaponFire_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_ElementalWeaponFire_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_EnchantWeapon" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;IsSpell;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="6e0c79d5-f724-4628-8669-da3d766e9b83" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d8ed1647-82eb-4079-a914-1b2c2a89f153" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e4d6914d-1a62-41b4-8932-eee907f2c200" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

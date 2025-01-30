@@ -23,7 +23,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Angelic_Greatsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d15d361d-db30-44c1-9215-34fbcac93526" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="612999fd-0631-471a-99c7-cdcb4cfd9759" />
-        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="UnlockSpell(Target_RHERB_FlameStrike_RestCD)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RHERB_DivineWeapon)" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Zone_Cleave);UnlockSpell(Target_RHERB_WeaponAction_DawnStrike)" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Burning_Radiance_Passive;RHERB_Holy_Burns_Passive" />
       </fields>
@@ -37,6 +37,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RHERB_DivineWeapon)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -48,7 +49,6 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
-        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
   </stat_objects>

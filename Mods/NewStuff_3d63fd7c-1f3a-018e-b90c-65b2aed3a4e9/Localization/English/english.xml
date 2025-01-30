@@ -70,7 +70,7 @@
   <content contentuid="h554eb149gaecfga55eg033cgd1d5247853d1" version="2">Zealot's Fervor</content>
   <content contentuid="h257cccf3g5685ga49dg9bddg5ce220f4e1c0" version="3">On a hit, light erupts around you in a [1] area. Enemies in the light take Radiant damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and must succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="hc51a09fag13c0gf484gbb85g29e7cce72f1f" version="2">Avenging Wrath</content>
-  <content contentuid="hae69035ag4fdcgf59cg05d1g9ef9cf40122b" version="3">Once per combat, when you use &lt;LSTag Type="Spell" Tooltip="Target_Smite_Divine"&gt;Divine Smite&lt;/LSTag&gt; on a target burning with &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Fire&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="MAG_VIOLENCE"&gt;Wrath&lt;/LSTag&gt; for [1] turns.</content>
+  <content contentuid="hae69035ag4fdcgf59cg05d1g9ef9cf40122b" version="4">Once per combat, when you use &lt;LSTag Type="Spell" Tooltip="Target_Smite_Divine"&gt;Divine Smite&lt;/LSTag&gt; on a target burning with &lt;LSTag Type="Status" Tooltip="BURNING_HOLY"&gt;Holy Fire&lt;/LSTag&gt;, gain &lt;LSTag Type="Status" Tooltip="RHERB_AVENGING_WRATH"&gt;Avenging Wrath&lt;/LSTag&gt; for [1] turns.</content>
   <content contentuid="hbd295ae1gd2f7g9419gc122ga02c2eccd3a3" version="2">Final Reckoning</content>
   <content contentuid="h3bf5ef18g22dcg0e7bgb540g0c8c3d019e0d" version="3">While you have &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;, enemies who damage you with melee attacks must make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or take [1].</content>
   <content contentuid="ha4e26102gf8a3g79abgcc1fg32fe19f08efe" version="1">Shield of Vengeance</content>
@@ -86,4 +86,11 @@
   <content contentuid="h89749d3agbfb2g0bb3g32b6ge06d672c991c" version="1">Foo</content>
   <content contentuid="hd4aef41bg51d0g8cf4gf25bgcbe6ec6b03d1" version="3">Zealot's Fervor</content>
   <content contentuid="h700b2ed0g552egceb3ge6b8g423ed711c3b7" version="3">After this status expires, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+  <content contentuid="ha85aa0b6g6b42gf694ga8a0g88c6145875b7" version="1">Divine Weapon</content>
+  <content contentuid="h384c68f2gfdbdg467fgb82egcc03b00a1668" version="3">Infuse your weapon with &lt;LSTag Type="Status" Tooltip="RHERB_DIVINE_WEAPON"&gt;Searing Light&lt;/LSTag&gt; for [1] turns, causing it to deal an additional [2] and [3].</content>
+  <content contentuid="h1f59ab5egd491gf8edgc3afge8397d0eef9a" version="2">Searing Light</content>
+  <content contentuid="hbdae4d4agb70dgd3d2g019egc921a0eedb9a" version="3">Your weapon is infused with searing light. Weapon attacks deal an additional [1] and [2].</content>
+  <content contentuid="h96565906g2017g459fga5a5gbe9edb38ee4a" version="1">Avenging Wrath</content>
+  <content contentuid="h9110ba97g9a0bgfa92gc40eg38acc6bab563" version="1">You deal 1 additional radiant damage with melee weapons for every turn this condition has remaining. </content>
+  <content contentuid="hddff0293g9f8cg128cg42fbgfa9faaccc23b" version="1"> 2</content>
 </contentList>

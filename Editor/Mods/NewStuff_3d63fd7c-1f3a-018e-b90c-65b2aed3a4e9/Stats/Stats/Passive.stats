@@ -65,12 +65,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e2e94bb0-bf50-4610-90f6-12d23898f2b7" />
         <field name="Name" type="NameTableFieldDefinition" value="RHERB_Divine_Wrath_Passive" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc51a09fag13c0gf484gbb85g29e7cce72f1f" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae69035ag4fdcgf59cg05d1g9ef9cf40122b" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae69035ag4fdcgf59cg05d1g9ef9cf40122b" version="4" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="4" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerCombat" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply;OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('BURNING_HOLY', context.Target) and (SpellId('Target_Smite_Divine') or SpellId('Target_Smite_Divine_2') or SpellId('Target_Smite_Divine_3') or SpellId('Target_Smite_Divine_4') or SpellId('Target_Smite_Divine_5') or SpellId('Target_Smite_Divine_6') or (context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('INTERRUPT_SMITE_DIVINE_VFX')))" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, MAG_VIOLENCE,100, 4);ApplyStatus(SELF, MAG_VIOLENCE_DURATION_TECHNICAL, 100, 1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Combat() and HasStatus('BURNING_HOLY', context.Target) and (SpellId('Target_Smite_Divine') or SpellId('Target_Smite_Divine_2') or SpellId('Target_Smite_Divine_3') or SpellId('Target_Smite_Divine_4') or SpellId('Target_Smite_Divine_5') or SpellId('Target_Smite_Divine_6') or (context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('INTERRUPT_SMITE_DIVINE_VFX')))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,RHERB_AVENGING_WRATH,100, 4)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
