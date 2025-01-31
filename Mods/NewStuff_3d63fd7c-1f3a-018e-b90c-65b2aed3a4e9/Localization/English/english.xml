@@ -79,10 +79,10 @@
   <content contentuid="ha9649e40g76a0g6f2ag510eg65b058010a9a" version="1">Blessing of Retribution</content>
   <content contentuid="h134c7b7egc64dg80c4g6658g15ea7fa9f90e" version="1">Blessed with holy fervor. Weapon attacks deal an additional [1].</content>
   <content contentuid="hd6f7f0f9gd1feg086aged59gff4ff04f6e7b" version="1">Shield of Vengeance</content>
-  <content contentuid="h775cbfc0gf467g6f8bg75a6gdf6dc161f872" version="4">Gained a shield of [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt;. Upon expiration, the shield explodes, dealing [2] and [3] to all enemies in [4]. Deals half damage on a successful saving throw.</content>
+  <content contentuid="h775cbfc0gf467g6f8bg75a6gdf6dc161f872" version="5">Gained a shield of [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt;. Upon expiration, the shield explodes, dealing [2] and [3] to all enemies in [4] and possibly knocking them prone. Deals half damage on a successful saving throw.</content>
   <content contentuid="heae2b27cga3c9g2e54g7870gb7fa7201f788" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, when the wearer is brought below 50% &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, they gain &lt;LSTag Type="Status" Tooltip="RHERB_MAG_ShieldOfVengeance"&gt;Shield of Vengeance&lt;/LSTag&gt;.</content>
   <content contentuid="h59d1a433g8249g4f21g9326g5f6c2f92114c" version="1">Shield Of Vengeance Explosion</content>
-  <content contentuid="h652c30dcgc634g0444ge7d3ga2cff994820b" version="1">The shield explodes in holy fire, damaging nearby enemies.</content>
+  <content contentuid="h652c30dcgc634g0444ge7d3ga2cff994820b" version="3">The shield explodes in holy fire, damaging nearby enemies and possibly knocking them prone.</content>
   <content contentuid="h89749d3agbfb2g0bb3g32b6ge06d672c991c" version="1">Foo</content>
   <content contentuid="hd4aef41bg51d0g8cf4gf25bgcbe6ec6b03d1" version="3">Zealot's Fervor</content>
   <content contentuid="h700b2ed0g552egceb3ge6b8g423ed711c3b7" version="3">After this status expires, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
@@ -93,4 +93,5 @@
   <content contentuid="h96565906g2017g459fga5a5gbe9edb38ee4a" version="1">Avenging Wrath</content>
   <content contentuid="h9110ba97g9a0bgfa92gc40eg38acc6bab563" version="1">You deal 1 additional radiant damage with melee weapons for every turn this condition has remaining. </content>
   <content contentuid="hddff0293g9f8cg128cg42fbgfa9faaccc23b" version="1"> 2</content>
+  <content contentuid="he9b2a598g00d0g7f54g0876gb79f3e854f3c" version="1">%%% Explosion technical</content>
 </contentList>

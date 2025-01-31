@@ -15,12 +15,12 @@
         <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_ShieldOfVengeance_Explosion" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b5eee2a8-ef08-4b5f-ad17-52afabe12097" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire,Magical);DealDamage(1d6,Radiant,Magical)" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((1d6)/2,Fire,Magical);DealDamage((1d6)/2,Radiant,Magical)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Ally()" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire,Magical);DealDamage(1d4 + ProficiencyBonus,Radiant,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()))" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((1d6)/2,Fire,Magical);DealDamage((1d4 + ProficiencyBonus)/2,Radiant,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()))" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() and Ally() and not Dead()) or Item()" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59d1a433g8249g4f21g9326g5f6c2f92114c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h652c30dcgc634g0444ge7d3ga2cff994820b" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire);DealDamage(1d6,Radiant)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h652c30dcgc634g0444ge7d3ga2cff994820b" version="3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire);DealDamage(1d4 + ProficiencyBonus,Radiant)" />
       </fields>
     </stat_object>
   </stat_objects>

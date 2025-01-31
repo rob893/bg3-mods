@@ -58,7 +58,7 @@ data "DisplayName" "hbd295ae1gd2f7g9419gc122ga02c2eccd3a3;2"
 data "Description" "heae2b27cga3c9g2e54g7870gb7fa7201f788;1"
 data "Properties" "OncePerShortRest"
 data "StatsFunctorContext" "OnDamaged"
-data "Conditions" "(IsHit() or IsCritical()) and not IsMiss() and not IsCriticalMiss() and Enemy() and Combat() and not Dead() and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50)"
+data "Conditions" "(IsHit() or IsCritical()) and not IsMiss() and not IsCriticalMiss() and Combat() and Enemy() and not Dead() and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50)"
 data "StatsFunctors" "ApplyStatus(RHERB_MAG_ShieldOfVengeance, 100, 5)"
 
 new entry "RHERB_BlessingOfRetribution_Passive"
