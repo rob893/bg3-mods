@@ -124,13 +124,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1787a9d3-6e11-44e7-8a4d-ec5a9d5e17e1" />
-        <field name="Name" type="NameTableFieldDefinition" value="RHERB_HolyAura_Enemy" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5bda8a75g9cadgb435g9fb2gbca7987669d0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b9b922fgcce9g4c55ga8a4g98c94915efc3" version="2" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="Tagged('FIEND', context.Source) or Tagged('UNDEAD', context.Source) or Tagged('UNDEAD_BEAST', context.Source) or Tagged('BEAST', context.Source)" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack()" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BLINDED, 25, 2)" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_HolyAura_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5bda8a75g9cadgb435g9fb2gbca7987669d0" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b9b922fgcce9g4c55ga8a4g98c94915efc3" version="3" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and (Tagged('FIEND', context.Source) or Tagged('UNDEAD', context.Source) or Tagged('UNDEAD_BEAST', context.Source))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SWAP, RHERB_HOLY_AURA_ENEMY_BLIND, 100, 0)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
   </stat_objects>

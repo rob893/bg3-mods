@@ -110,40 +110,55 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8ef69190-9948-4201-a27a-0fbe3078d0e9" />
         <field name="Name" type="NameTableFieldDefinition" value="RHERB_HOLY_AURA" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfddcd4bbg7758gb3cag09f7gf9e214a5b36c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he0e8b5c2g7512gd26ag612bg5617dc5eb301" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he0e8b5c2g7512gd26ag612bg5617dc5eb301" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_CrusadersMantle" />
         <field name="StackId" type="StringTableFieldDefinition" value="RHERB_HOLY_AURA" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="9" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and not Dead() and not Enemy()):ApplyStatus(RHERB_HOLY_AURA_ALLY,100,1);TARGET:IF(Character() and not Dead() and Enemy()):ApplyStatus(RHERB_HOLY_AURA_ENEMY,100,1)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AllSavingThrows);GameplayLight(9,false,0.1,true)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AllSavingThrows);GameplayLight(2,false,0.1,true)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(2);5" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RHERB_HolyAura_Passive" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1f7ca970-b480-4319-8d9e-90578e982065" />
         <field name="Name" type="NameTableFieldDefinition" value="RHERB_HOLY_AURA_ALLY" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd51b283dg940fge48fg818agb03a01d74670" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h794a1865g145eg061ag3cf9g5625ce1abed2" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd51b283dg940fge48fg818agb03a01d74670" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h794a1865g145eg061ag3cf9g5625ce1abed2" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_CrusadersMantle" />
         <field name="StackId" type="StringTableFieldDefinition" value="RHERB_HOLY_AURA" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AllSavingThrows);GameplayLight(2,false,0.1,true)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RHERB_HolyAura_Passive" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="40850702-ccf9-4869-93b2-0f97f140204b" />
         <field name="Name" type="NameTableFieldDefinition" value="RHERB_HOLY_AURA_ENEMY" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcec1e3edg1d0bg85bbg2423g43f69ba6a3af" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h077f668cg2bfdg0d02g4716gc5ca9a1ad240" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcec1e3edg1d0bg85bbg2423g43f69ba6a3af" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h077f668cg2bfdg0d02g4716gc5ca9a1ad240" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_CrusadersMantle" />
         <field name="StackId" type="StringTableFieldDefinition" value="RHERB_HOLY_AURA_ENEMY" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll)" />
-        <field name="Passives" type="StringTableFieldDefinition" value="RHERB_HolyAura_Enemy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44949bec-684d-4066-aff6-5d8b8e437a7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_HOLY_AURA_ENEMY_BLIND" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7bbe7138g1c96ga51cgba39g5d166eadeace" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f1d7179ge4deg4b1cg9256gcd54e1c532ef" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_CrusadersMantle" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(BLINDED, 100, 5)" />
       </fields>
     </stat_object>
   </stat_objects>
