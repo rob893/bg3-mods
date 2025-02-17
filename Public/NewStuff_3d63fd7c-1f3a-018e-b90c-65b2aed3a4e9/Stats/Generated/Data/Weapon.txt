@@ -18,6 +18,7 @@ data "RootTemplate" "612999fd-0631-471a-99c7-cdcb4cfd9759"
 data "Boosts" "UnlockSpell(Shout_RHERB_DivineWeapon)"
 data "BoostsOnEquipMainHand" "UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Zone_Cleave);UnlockSpell(Target_RHERB_WeaponAction_DawnStrike)"
 data "PassivesOnEquip" "RHERB_Burning_Radiance_Passive;RHERB_Holy_Burns_Passive"
+data "Unique" "1"
 
 new entry "RHERB_MAG_Angelic_Greatsword_R1"
 type "Weapon"

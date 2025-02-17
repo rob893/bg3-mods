@@ -26,6 +26,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RHERB_DivineWeapon)" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Zone_Cleave);UnlockSpell(Target_RHERB_WeaponAction_DawnStrike)" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Burning_Radiance_Passive;RHERB_Holy_Burns_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

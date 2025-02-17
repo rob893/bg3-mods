@@ -95,4 +95,20 @@
   <content contentuid="hddff0293g9f8cg128cg42fbgfa9faaccc23b" version="1"> 2</content>
   <content contentuid="he9b2a598g00d0g7f54g0876gb79f3e854f3c" version="1">%%% Explosion technical</content>
   <content contentuid="hbdfdf16bg3c77g7994g8611ga4cd4a301e5a" version="1">%%% Shield technical</content>
+  <content contentuid="h06e96beag17b1gecebg87b5g5dc9f0d08a0e" version="1">Baneful Strikes</content>
+  <content contentuid="h86ae3ca6g8a54gf542g2fd8g741ba5875a95" version="1">When you deal damage to a target with a melee weapon, it must succeed a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="BANE"&gt;Baned&lt;/LSTag&gt; for [1] turns.</content>
+  <content contentuid="hd7947208g547eg6ab7g8441g500ac5a8f615" version="1">Adjudication</content>
+  <content contentuid="h48d52c46g02b0g9a4cg2f29g26c4c08207b3" version="1">When you use your &lt;LSTag Type="ActionResource" Tooltip="ChannelOath"&gt;Channel Oath&lt;/LSTag&gt; spells, you gain &lt;LSTag Type="Status" Tooltip="RHERB_MAG_BANEFUL_STRIKES"&gt;Baneful Strikes&lt;/LSTag&gt; for [1] turns.</content>
+  <content contentuid="hef5a2efcgba25g7a85gd296g03551841efe9" version="1">Baneful Strikes</content>
+  <content contentuid="h6e5542c9gd9d5gf32dgd1abg52b8726db562" version="1">When you deal damage to a target with a melee weapon, it must succeed a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="BANE"&gt;Baned&lt;/LSTag&gt; for [1] turns.</content>
+  <content contentuid="hfddcd4bbg7758gb3cag09f7gf9e214a5b36c" version="1">Holy Aura</content>
+  <content contentuid="he0e8b5c2g7512gd26ag612bg5617dc5eb301" version="1">Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Allies have advantage on all saving throws, and enemies have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.</content>
+  <content contentuid="hd51b283dg940fge48fg818agb03a01d74670" version="1">Holy Aura Ally</content>
+  <content contentuid="h794a1865g145eg061ag3cf9g5625ce1abed2" version="1">Basking in the light of a Holy Aura. You have advantage on all saving throws.</content>
+  <content contentuid="hcec1e3edg1d0bg85bbg2423g43f69ba6a3af" version="1">Holy Aura Enemy</content>
+  <content contentuid="h077f668cg2bfdg0d02g4716gc5ca9a1ad240" version="1">Trembling of the sight of a Holy Aura. You have disadvantage on attack rolls and risk being blinded on melee attacks.</content>
+  <content contentuid="h0e99beddgb904gc898gde8eg0866be1db983" version="1">Holy Aura</content>
+  <content contentuid="hda39bf21g795dgd95bg0719g0f82c57b28e8" version="1">Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Allies in that radius have advantage on all saving throws, and enemies have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.</content>
+  <content contentuid="h5bda8a75g9cadgb435g9fb2gbca7987669d0" version="1">Holy Aura Enemy</content>
+  <content contentuid="h7b9b922fgcce9g4c55ga8a4g98c94915efc3" version="2">You will be blinded on damaging an enemy.</content>
 </contentList>

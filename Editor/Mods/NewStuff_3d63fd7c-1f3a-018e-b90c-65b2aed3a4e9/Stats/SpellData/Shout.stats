@@ -40,5 +40,19 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48405266-94b0-4248-be8d-31cc0f409e11" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_HolyAura" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="46c95ab1-def6-46bc-851b-2c8cba412629" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:ApplyStatus(RHERB_HOLY_AURA,100,10);AI_ONLY:IF(not HasStatus('RHERB_HOLY_AURA')):ApplyStatus(AI_HELPER_BUFF_LARGE,100,4)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e99beddgb904gc898gde8eg0866be1db983" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hda39bf21g795dgd95bg0719g0f82c57b28e8" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RHERB_HOLY_AURA,100,10)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

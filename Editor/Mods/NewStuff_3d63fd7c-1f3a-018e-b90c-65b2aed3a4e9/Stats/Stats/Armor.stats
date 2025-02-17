@@ -86,7 +86,7 @@
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength);RollBonus(Attack, 1)" />
         <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Divine_Wrath_Passive;RHERB_Blessed_Hands_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Divine_Wrath_Passive;RHERB_Adjudication_Passive" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -97,7 +97,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be7b2034-b029-4ab5-9f69-222a540f48fa" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength);RollBonus(Attack, 1);Ability(Strength, 2)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Divine_Wrath_Passive;RHERB_Blessed_Hands_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_Divine_Wrath_Passive;RHERB_Adjudication_Passive" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -148,7 +148,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="34579a28-b10f-4b26-9263-c74f23e2227e" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a57433fc-8be8-4efb-ac6b-a625b3bdcd18" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Constitution, 2);CriticalHit(AttackTarget,Success,Never);Disadvantage(Skill,Stealth);UnlockSpell(Target_PLA_ShieldOfFaith_SwordOfJustice)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Constitution, 2);CriticalHit(AttackTarget,Success,Never);Disadvantage(Skill,Stealth);UnlockSpell(Target_PLA_ShieldOfFaith_SwordOfJustice);UnlockSpell(Shout_RHERB_HolyAura)" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ARM_MagicalPlate_2_Passive;RHERB_SmiteKill_SS1_Passive;MAG_MAG_EndGame_Plate_Armor_Passive" />
