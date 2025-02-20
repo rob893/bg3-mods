@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4fcdf163-88be-40b5-bf02-680ac5d776d9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="846e6153-e1a5-44da-a43c-1aa2e6ce18e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_LightningBolt_SR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc19e4c6-a591-4824-b7f2-c59a14adc97f" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

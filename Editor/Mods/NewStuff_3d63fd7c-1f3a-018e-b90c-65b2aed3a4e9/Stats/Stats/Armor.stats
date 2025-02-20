@@ -245,7 +245,8 @@
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Athletics,1);Ability(Dexterity, 2)" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_BlessingOfRetribution_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Technical_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RHERB_BlessingOfRetribution_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Passive;MAG_Paladin_MomentumOnConcentration_Boots_Technical_Passive;MAG_EndGame_Boots_Passive" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="MAG_FREEDOM_OF_MOVEMENT;MAG_END_GAME_LONGSTRIDER" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -24,7 +24,7 @@
                     <attribute id="FileSize" type="uint64" value="0"/>
                     <attribute id="Folder" type="LSString" value="NewStuff_3d63fd7c-1f3a-018e-b90c-65b2aed3a4e9"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="aac6b0e6b1a50d85b9d639afb9e1f541"/>
+                    <attribute id="MD5" type="LSString" value="884d0ef899f5792ccf1b4fcb54885695"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="NewStuff"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -32,7 +32,7 @@
                     <attribute id="PublishHandle" type="uint64" value="0"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="3d63fd7c-1f3a-018e-b90c-65b2aed3a4e9"/>
-                    <attribute id="Version64" type="int64" value="36028797018963990"/>
+                    <attribute id="Version64" type="int64" value="36028797018963994"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927717549775"/>

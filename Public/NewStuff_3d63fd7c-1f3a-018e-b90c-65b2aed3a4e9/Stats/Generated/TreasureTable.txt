@@ -63,6 +63,8 @@ new subtable "-1"
 object category "I_RHERB_MAG_Angelic_Greatsword_R2",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_RHERB_MAG_Ring_Of_Summoning",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_RHERB_MAG_Storm_Flail",1,0,0,0,0,0,0,0
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
 new subtable "-1"
@@ -99,3 +101,5 @@ new subtable "-1"
 object category "I_RHERB_MAG_Angelic_Gloves",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_RHERB_MAG_Angelic_Helmet",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_RHERB_MAG_Storm_Flail",1,0,0,0,0,0,0,0

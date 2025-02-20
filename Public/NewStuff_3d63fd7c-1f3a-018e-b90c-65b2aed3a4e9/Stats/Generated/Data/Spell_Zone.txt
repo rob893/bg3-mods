@@ -1,0 +1,6 @@
+new entry "Zone_RHERB_LightningBolt_SR"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_LightningBolt"
+data "Cooldown" "OncePerShortRest"
+

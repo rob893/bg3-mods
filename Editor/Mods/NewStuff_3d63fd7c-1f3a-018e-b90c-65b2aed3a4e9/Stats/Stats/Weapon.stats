@@ -52,5 +52,22 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4b93ceb-ca2d-4cd4-b562-dfe82b6dcac4" />
+        <field name="Name" type="NameTableFieldDefinition" value="RHERB_MAG_Storm_Flail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb081c9-735c-428e-8cd9-128b5eb68769" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="449edb5b-b394-4e49-84d3-70099e9d259a" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Lightning, Resistant);UnlockSpell(Zone_RHERB_LightningBolt_SR)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_ConcussiveSmash);UnlockSpell(Target_HinderingSmash)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive;MAG_ChargedLightning_Charge_OnSpellDamage_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

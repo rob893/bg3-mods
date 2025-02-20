@@ -114,4 +114,10 @@
   <content contentuid="h7bbe7138g1c96ga51cgba39g5d166eadeace" version="3">Holy Aura Flash</content>
   <content contentuid="h4f1d7179ge4deg4b1cg9256gcd54e1c532ef" version="1">The flash after hitting a creature affected by &lt;LSTag Type="Spell" Tooltip="Shout_RHERB_HolyAura"&gt;Holy Aura&lt;/LSTag&gt; has &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; you for [1] turns.</content>
   <content contentuid="h3dccc412gde25g0e85g4a36g3034aca58f4e" version="1">Lightball</content>
+  <content contentuid="hb1abe108g0e9fg7489g97d3g40b411416ab0" version="2">Flail of Stormy Skies</content>
+  <content contentuid="hd91fc5abg8b9eg33bag3743ga0e4164eddc2" version="2">Sparks arc out from the metal.</content>
+  <content contentuid="h002d22ffg553dga2a5gba67gcb47e9b419b3" version="1">Electrified Flail</content>
+  <content contentuid="ha7abe230gf43eg61f9gf2a2ge08e136c1c13" version="1">Clout a foe with your lightning-suffused flail and &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt; them.</content>
+  <content contentuid="hfe81aed0g5cb8g4aefgde2bg151c0bcf0629" version="1">Flail of Stormy Skies</content>
+  <content contentuid="h09c318fbge7f1gede4g82ffg81cfd06925aa" version="1">This flail arcs with electricity.</content>
 </contentList>

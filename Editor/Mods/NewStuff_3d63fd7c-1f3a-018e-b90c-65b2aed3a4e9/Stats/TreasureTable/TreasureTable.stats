@@ -329,6 +329,17 @@
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b14e5c8a-3d10-4018-baa0-ac369a800a91" />
+        <field name="Name" type="NameTableFieldDefinition" value="d28cfc89-e762-4751-8334-2210ea37172c_substat_10" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Storm_Flail" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="baa415d7-4e9c-447a-b573-e38952df5451" />
@@ -488,6 +499,17 @@
         <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
         <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Angelic_Helmet" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dea4f2f1-d490-461f-b5bd-aaeb95dd8269" />
+        <field name="Name" type="NameTableFieldDefinition" value="97068c03-8b99-4730-988a-70b56b062363_substat_3" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_RHERB_MAG_Storm_Flail" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
